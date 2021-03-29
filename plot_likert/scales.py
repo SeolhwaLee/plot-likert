@@ -18,7 +18,14 @@ agree5: Scale = [
     "Agree",
     "Strongly agree",
 ]
-agree: Scale = agree5
+    
+agree3: Scale = [
+    "Dissatisfied",
+    "Neither agree nor disagree",
+    "Satisfied",
+]
+agree: Scale = agree3
+# agree: Scale = agree5
 
 acceptable5_0: Scale = [
     "0",
@@ -53,6 +60,12 @@ scores5: Scale = [
     "3 - Neither Agree nor Disagree",
     "4 - Agree",
     "5 - Strongly Agree",
+]
+
+scores3: Scale = [
+    "1 - Dissatisfied",
+    "2 - Neither Agree nor Disagree",
+    "3 - Satisfied",
 ]
 
 scores6_0: Scale = [
@@ -94,7 +107,9 @@ scores7: Scale = [
     "6 - Agree",
     "7 - Strongly Agree",
 ]
-
+raw3_0: Scale = ["0", "1", "2", "3"]
+raw3: Scale = ["1", "2", "3"]
+    
 raw5_0: Scale = ["0", "1", "2", "3", "4", "5"]
 raw5: Scale = ["1", "2", "3", "4", "5"]
 
