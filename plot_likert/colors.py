@@ -16,7 +16,8 @@ default: Colors = [
     "cornflowerblue",
     "darkblue",
 ]
-
+likert3: Colors = ["white", "#d8a539", "#efe0c1", "lightgray"]
+    
 likert5: Colors = ["white", "#d8a539", "#efe0c1", "lightgray", "#bde1dd", "#5ab4ac"]
 
 likert6: Colors = [
